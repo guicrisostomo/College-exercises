@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1629298600 source:d:\estudos\guilherme\fatec\semestre 2\linguagem de programação\dia 11-08\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+
