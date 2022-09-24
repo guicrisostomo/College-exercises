@@ -1,2 +1,2 @@
-# Exercicios da faculdade
-Repositório criado com o objetivo de demonstrar algumas coisas que aprendi/fiz em aula
+# College exercises
+Repository created with the purpose of to demonstrate what I have learned at the college
