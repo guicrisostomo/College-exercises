@@ -11,5 +11,5 @@ abstract class ApiRepository {
   //
   // ENDPOINTS
   //
-  static const USUARIOS = '$BASE?results=10';
+  static const USUARIOS = '$BASE?results=50';
 }
