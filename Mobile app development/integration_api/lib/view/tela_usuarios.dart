@@ -48,7 +48,7 @@ class _TelaUsuarioState extends State<TelaUsuario> {
           //
           //Sucesso na requisição
           //
-          
+
           } else if (snapshot.hasData) {
             var dados = snapshot.data;
             return GridView.builder(
@@ -71,7 +71,7 @@ class _TelaUsuarioState extends State<TelaUsuario> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         CircleAvatar(
-                          radius: 70,
+                          radius: 60,
                           backgroundImage: NetworkImage(
                             dados[index].foto,
                           ),
@@ -79,7 +79,7 @@ class _TelaUsuarioState extends State<TelaUsuario> {
                         Text(
                           dados[index].nome,
                           overflow: TextOverflow.ellipsis,
-                          style: GoogleFonts.lobster(fontSize: 24),
+                          style: GoogleFonts.roboto(fontSize: 24),
                         ),
                         Text(
                           dados[index].email,
