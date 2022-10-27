@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:integration_firebase/pages/login_page.dart';
 
 import 'firebase_options.dart';
 
@@ -14,9 +15,14 @@ Future<void> main() async {
   );
   
   runApp(
-    const MaterialApp(
+    MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'TASK LIST',
+
+      initialRoute: 'login',
+      routes: {
+        'login' : (((context) => const LoginPage())),
+      },
     ),
   );
 }
