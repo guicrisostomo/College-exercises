@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1063983514030-ggmj4c58h5anl7inpgq2rbsjuh5p3h7e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1063983514030-ggmj4c58h5anl7inpgq2rbsjuh5p3h7e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCBcSaBHJEkMceWHD3OlziKcL0RLKGcGQY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1063983514030</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.integrationFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>fatec-task-list-manha-5c846</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fatec-task-list-manha-5c846.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1063983514030:ios:02cf51dcc43771e4f8083f</string>
+</dict>
+</plist>
