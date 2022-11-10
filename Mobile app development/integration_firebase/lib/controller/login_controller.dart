@@ -5,18 +5,18 @@ import 'package:flutter/material.dart';
 import '../pages/util.dart';
 
 class LoginController {
-  void criarConta(context, String nome, String email, String senha) {
+  //
+  // CRIAÇÃO DE UMA NOVA CONT 
+  //
+  void criarConta(context, nome, email, senha) {
     FirebaseAuth.instance
         .createUserWithEmailAndPassword(email: email, password: senha)
         .then((res) {
       //Armazenar o nome no Firestore
-      FirebaseFirestore.instance.collection('usuarios')
-        .add(
-          {
-            "uid" : res.user!.uid.toString(),
-            "nome" : nome,
-          }
-        );
+      FirebaseFirestore.instance.collection('usuarios').add({
+        "uid": res.user!.uid.toString(),
+        "nome": nome,
+      });
 
       sucesso(context, 'Usuário criado com sucesso.');
       Navigator.pop(context);
@@ -34,7 +34,10 @@ class LoginController {
     });
   }
 
-  void login(context, String email, String senha) {
+  //
+  // LOGIN DO USUÁRIO
+  //
+  void login(context, email, senha) {
     FirebaseAuth.instance
         .signInWithEmailAndPassword(email: email, password: senha)
         .then((res) {
@@ -57,12 +60,13 @@ class LoginController {
     });
   }
 
-  Future<void> esqueceuSenha(String email) async {
+  //
+  // ESQUECEU A SENHA
+  //
+  Future<void> esqueceuSenha(email) async {
     await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
   }
 
-
-  
   //
   // LOGOUT
   //
